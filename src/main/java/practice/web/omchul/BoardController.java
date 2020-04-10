@@ -6,9 +6,12 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class BoardController {
-	@RequestMapping(value = "/blist")
-	public ModelAndView bloginsert(ModelAndView mv) {
-		mv.setViewName("board/boardList");
-		return mv;
+
+
+	@RequestMapping(value="blist")
+	public String blist() {
+		return "board/boardList";
 	}
+	
+	
 }

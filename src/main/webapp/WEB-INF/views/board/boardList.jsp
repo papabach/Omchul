@@ -10,9 +10,7 @@
 
 <div><jsp:include page="/WEB-INF/views/common/navBar.jsp" flush="false"></jsp:include></div>
 
-<div class="container">
-
-</div>
+<div class="container"></div>
 
 
 	<!-- Latest compiled and minified CSS -->
