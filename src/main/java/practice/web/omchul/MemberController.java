@@ -13,4 +13,10 @@ public class MemberController {
 	}
 	
 	
+	@RequestMapping(value="signupform")
+	public String signupform() {
+		return "/member/signUpForm";
+	}
+	
+	
 }
