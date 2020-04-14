@@ -4,12 +4,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class BoardController {
+public class MemberController {
 
 
-	@RequestMapping(value="blist")
-	public String blist() {
-		return "board/boardList";
+	@RequestMapping(value="login")
+	public String login() {
+		return "member/login";
 	}
 	
 	
